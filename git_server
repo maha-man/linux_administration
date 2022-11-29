@@ -1,0 +1,4 @@
+
+*/5 * * * * root cd /usr/lib/nagios/plugins && git pull origin master > /dev/null 2>&1
+#*/5 * * * * root cd /root/kubernetes && git pull origin master > /dev/null 2>&1
+

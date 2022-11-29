@@ -1,0 +1,14 @@
+*filter
+:INPUT DROP [0:0]
+:FORWARD ACCEPT [0:0]
+:OUTPUT ACCEPT [0:0]
+:rules-in - [0:0]
+-A INPUT -i lo -j ACCEPT
+-A INPUT -p icmp -j ACCEPT
+-A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+-A INPUT -j rules-in
+-A INPUT -j LOG --log-prefix "REJECT: "
+-A INPUT -j REJECT --reject-with icmp-host-prohibited
+-A rules-in -p tcp --dport 239797 -j ACCEPT
+-A rules-in -p tcp -m tcp --dport 5665 -j ACCEPT
+COMMIT
