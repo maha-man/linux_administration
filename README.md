@@ -1,7 +1,7 @@
 # linux_administration
 scripts for linux administration
 
-Dieses Skript stellt umfangreiche Tools zur Linux Administration, Automatisierung und Standardisierung zur  
+Das Skript admin.sh stellt umfangreiche Tools zur Linux Administration, Automatisierung und Standardisierung zur  
 Verfügung die auf einem, mehreren oder allen Servern ausgeführt werden können.
 
 Das Skript muss auf die jeweilen Bedürfnisse angepasst werden.
