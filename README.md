@@ -1,26 +1,20 @@
 # linux_administration
-Scripts for linux administration
+scripts for linux administration
 
-
-Diese Skrippt stellt unfangreiche Tools zur Verfügung die auf einem, mehreren oder allen Servern ausgeführt werden können.
+Dieses Skript stellt umfangreiche Tools zur Linux Administration, Automatisierung und Standardisierung zur  
+Verfügung die auf einem, mehreren oder allen Servern ausgeführt werden können.
 
 Das Skript muss auf die jeweilen Bedürfnisse angepasst werden.
 
-Die Paket Administration richtitet sich auf debian basierte Systeme aus. Die autmatischden Updates richten sich auf Ubuntu aus.
+Die Paket Administration richtet sich auf Debian basierte Systeme aus. Die automatischden Updates richten sich auf Ubuntu aus.
 Die anderen Funktionen können bei jedem Linux System ausgeführt werden.
 
-
-
-
-Zuerst wählt man die Server Gruppe aus oder trägt einen oder mehrere Server manuell ein:
-
-
+Zuerst wählt man die Server Gruppe aus oder trägt einen oder mehrere Server manuell ein.
 
 Beim
 rueck_kanal_servername1_servername2
 Wird ein Rückkanal aufgebaut so dass diese Server upgedatet werden die keine Verbindung zum Internet haben. Diese Server müssen entprechend konfiguriert werden.
 Bei userName Zugang, aktivieren oder deaktiviern, group_2 Dienste neustarten muss man sich bei Bedarf den Code anpassen.
-
 
 
 Im zweiten Menü können eine oder mehrere Aktionen für die Servergruppe durchgeführt werden:
@@ -84,7 +78,7 @@ Alle Server aus der Liste werden in den syslog Server integriert.
 abfrage_liste:
 Alle Server werden geprüft ob ein reboot aussteht und welche Updates zur Verfügung stehen aber noch nicht installiert sind.
 
-Alle Aktionen werden in einem eigenen Log geloggt
+Alle Aktionen werden in einem eigenen Log geloggt.
  
 Hier ein Beispiel für einen Anwendungsfall, wenn man mit Admin Tool bei allen Servern multipathd ausschalten möchte:
 
