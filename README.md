@@ -107,6 +107,3 @@ Created symlink /etc/systemd/system/multipathd.service → /dev/null.
 server3
 systemctl mask multipathd
 Created symlink /etc/systemd/system/multipathd.service → /dev/null.
-
-
-![image](https://user-images.githubusercontent.com/119319024/204562806-8262aee8-700f-4227-b809-1191e26ed94d.png)
